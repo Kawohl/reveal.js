@@ -21,6 +21,15 @@ Easiest way to run this image is to use [Docker Compose](https://ww.docker.com/d
   ```
 1. That's it! Setup is done, go edit your presentation ...
 
+## Clean up
+
+1. When you're done, just enter ```ctrl-c``` to stop the container
+
+1. Remove the container to free up resources
+  ```sh
+  docker-compose rm
+  ```
+
 ## Add custom stylesheets
 
 1. Copy a sass stylesheet to css/theme/source
