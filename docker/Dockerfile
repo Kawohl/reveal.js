@@ -10,6 +10,6 @@ RUN 	git clone https://github.com/hakimel/reveal.js.git . && \
 
 EXPOSE 8000
 
-ENTRYPOINT ["npm"]
+ENTRYPOINT ["grunt"]
 
-CMD ["start"]
+CMD ["serve"]

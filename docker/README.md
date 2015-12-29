@@ -25,9 +25,7 @@ Easiest way to run this image is to use [Docker Compose](https://ww.docker.com/d
 
 1. Copy a sass stylesheet to css/theme/source
 
-2. Process the sass file in the container to create the css file
+2. Process the sass file in the container to create the css file (run from ```docker-compose.yml``` file location)
 ```sh
-$ docker exec -ti $(docker ps -lq) grunt sass
+$ docker-compose run reveal.js sass
 ```
-
-  Replace ```$(docker ps -lq)``` with docker container id if you started containers after ```docker-compose up```.
